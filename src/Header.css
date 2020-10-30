@@ -1,0 +1,82 @@
+.app__header {
+  padding-top: 2vh !important;
+  padding: 0 10%;
+  height: 30vh;
+  margin-bottom: -6.75%;
+}
+
+.appHeader__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 0;
+  font-family: sans-serif;
+}
+
+.appHeader__top h1 {
+  font-weight: lighter;
+  padding: 1.25vh 1.5vh;
+}
+
+.appHeader__left p {
+  color: grey;
+}
+
+.appHeader__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #879cbb;
+}
+
+@media only screen and (max-width: 600px), (device-width: 768px) {
+  .appHeader__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .appHeader__top h1 {
+    padding: 1.5vh 0;
+  }
+  .appHeader__left p {
+    padding-bottom: 3vh;
+  }
+  .appHeader__left {
+    width: 100%;
+    border-bottom: 1px solid grey;
+  }
+  .appHeader__right {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+  .app__header {
+    padding: 0 4%;
+    margin-bottom: -6%;
+  }
+  .appHeader__left {
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  .app__header {
+    padding: 0 4%;
+    margin-bottom: -12%;
+  }
+  .appHeader__left {
+    margin-bottom: 3%;
+  }
+  .appHeader__left p,
+  .appHeader__right {
+    font-size: medium;
+  }
+}

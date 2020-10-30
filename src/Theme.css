@@ -1,0 +1,68 @@
+.dark_mode {
+  background-color: #1a1a2e;
+}
+
+.light_mode .app__header {
+  background-color: #f6f9ff;
+}
+
+.dark_mode .app__header {
+  background-color: #1e1e33;
+  color: whitesmoke;
+}
+
+.dark_mode #overview_h2 {
+  color: whitesmoke !important;
+}
+
+.dark_mode > .allMediaCards > div,
+.dark_mode > .allOverviewCards > div {
+  background-color: #242844;
+  transition: ease-in-out 0s;
+}
+
+.dark_mode > .allMediaCards > div:hover,
+.dark_mode > .allOverviewCards > div:hover {
+  background-color: #2b3052;
+}
+
+.dark_mode > .allMediaCards h1,
+.dark_mode > .allOverviewCards h2 {
+  color: whitesmoke;
+}
+
+.dark_mode > .allMediaCards h4 {
+  color: #8ea3c2;
+}
+
+.dark_mode > .app__header #dark_mode_p,
+.dark_mode > .allMediaCards #dark_mode_p,
+.dark_mode > .allOverviewCards #dark_mode_p {
+  color: #8ea3c2;
+}
+
+.dark_mode .MuiIconButton-label {
+  color: #1e1e33;
+}
+
+/* MediaCard hover */
+
+.light_mode #first:hover {
+  box-shadow: 0 5px 35px rgba(24, 119, 242, 0.3);
+}
+
+.light_mode #second:hover {
+  box-shadow: 0 5px 35px rgba(0, 163, 255, 0.3);
+}
+
+.light_mode #third:hover {
+  box-shadow: 0 5px 35px rgba(255, 86, 93, 0.3);
+}
+
+.light_mode #fourth:hover {
+  box-shadow: 0 5px 35px rgba(204, 0, 0, 0.3);
+}
+
+.dark_mode .allMediaCards > div:hover {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.9);
+}

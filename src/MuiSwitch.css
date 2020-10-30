@@ -1,0 +1,54 @@
+.MuiSwitch-root {
+  background: linear-gradient(90deg, #4383c4, #08eea5);
+  width: 60px !important;
+  height: 30px !important;
+  border-radius: 24px !important;
+  padding: 4.2px !important;
+  margin-left: 10px;
+}
+
+.MuiSwitch-switchBase {
+  padding: inherit !important;
+}
+
+.MuiSwitch-thumb {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.MuiSwitch-track,
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background: transparent !important;
+  opacity: 1 !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+  color: #ffffff !important;
+  transform: translateX(100%) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiSwitch-root {
+    width: 42px !important;
+    height: 22px !important;
+    border-radius: 14px !important;
+    padding: 2.8px !important;
+  }
+  .MuiSwitch-thumb {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .MuiSwitch-root {
+    width: 50px !important;
+    height: 25px !important;
+    border-radius: 14px !important;
+    padding: 3.2px !important;
+  }
+  .MuiSwitch-thumb {
+    width: 19px !important;
+    height: 19px !important;
+  }
+}

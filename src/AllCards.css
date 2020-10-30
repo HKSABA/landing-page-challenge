@@ -1,0 +1,40 @@
+.allMediaCards,
+.allOverviewCards {
+  width: 80%;
+  padding: 0 10%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allOverviewCards {
+  height: 38vh;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px), (device-width: 768px) {
+  .allMediaCards,
+  .allOverviewCards {
+    width: 92%;
+    height: auto;
+    padding: 0;
+    flex-direction: column;
+  }
+  .allOverviewCards {
+    margin-bottom: 4vh;
+  }
+  #overview_h2 {
+    padding: 4vh 4%;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .allMediaCards,
+  .allOverviewCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

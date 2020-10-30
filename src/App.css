@@ -1,0 +1,18 @@
+#overview_h2 {
+  padding-top: 2.5%;
+  padding-bottom: 0.75%;
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: gray;
+}
+
+@media only screen and (max-width: 600px), (device-width: 768px) {
+  #overview_h2 {
+    padding: 4vh 4%;
+    width: 100%;
+    font-size: 20px;
+  }
+}
