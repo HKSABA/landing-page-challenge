@@ -9,7 +9,7 @@
   color: gray;
 }
 
-@media only screen and (max-width: 600px), (device-width: 768px) {
+@media only screen and (max-width: 1200px) {
   #overview_h2 {
     padding: 4vh 4%;
     width: 100%;

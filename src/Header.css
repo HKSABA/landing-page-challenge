@@ -2,6 +2,7 @@
   padding-top: 2vh !important;
   padding: 0 10%;
   height: 30vh;
+  min-height: 120px;
   margin-bottom: -6.75%;
 }
 
@@ -29,7 +30,11 @@
   color: #879cbb;
 }
 
-@media only screen and (max-width: 600px), (device-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  .app__header {
+    padding: 0 4%;
+    margin-bottom: -6%;
+  }
   .appHeader__top {
     display: flex;
     flex-direction: column;
@@ -43,40 +48,43 @@
   }
   .appHeader__left {
     width: 100%;
+    margin-bottom: 5%;
     border-bottom: 1px solid grey;
   }
   .appHeader__right {
     width: 100%;
     font-size: 15px;
   }
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 22px;
-  }
-  .app__header {
-    padding: 0 4%;
-    margin-bottom: -6%;
-  }
-  .appHeader__left {
-    margin-bottom: 5%;
-  }
-}
-
-@media only screen and (device-width: 768px) {
-  h1 {
-    font-size: 24px;
-  }
-  .app__header {
-    padding: 0 4%;
-    margin-bottom: -12%;
-  }
-  .appHeader__left {
-    margin-bottom: 3%;
-  }
   .appHeader__left p,
   .appHeader__right {
     font-size: medium;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .app__header {
+    margin-top: 16px !important;
+    margin-bottom: -6%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-height: 800px) {
+  .app__header {
+    margin-bottom: -4%;
+  }
+}
+@media only screen and (min-height: 440px) and (max-height: 700px) {
+  .app__header {
+    margin-bottom: -40px;
+  }
+}
+@media only screen and (max-height: 440px) {
+  .app__header {
+    margin-bottom: -12px;
   }
 }

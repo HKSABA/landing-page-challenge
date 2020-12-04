@@ -130,7 +130,8 @@
   .mediaCard {
     width: 100%;
     height: 35vh;
-    margin: 3vw 0;
+    margin-top: 12px;
+    margin-bottom: 24px;
   }
   .mediaCard__middle h1 {
     font-size: 40px;
@@ -146,7 +147,7 @@
   }
 }
 
-@media only screen and (device-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .mediaCard {
     width: 48%;
     height: 34vh;
@@ -163,5 +164,25 @@
   }
   .mediaCard:hover .fadeInTop-container {
     top: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1680px),
+  (max-height: 900px) {
+  .mediaCard__middle h1 {
+    font-size: 40px;
+  }
+  .mediaCard__middle h4 {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .mediaCard {
+    height: 200px;
+    padding: 1% 0;
+  }
+  .mediaCard__bottom {
+    font-size: small;
   }
 }

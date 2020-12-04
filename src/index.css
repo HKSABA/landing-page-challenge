@@ -9,6 +9,7 @@ body,
 .light_mode,
 .dark_mode {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,15 +31,4 @@ a:focus,
 a:active {
   text-decoration: none;
   color: inherit;
-}
-
-@media only screen and (max-width: 600px), (device-width: 768px) {
-  html,
-  body,
-  #root,
-  .app,
-  .light_mode,
-  .dark_mode {
-    overflow-x: hidden;
-  }
 }
