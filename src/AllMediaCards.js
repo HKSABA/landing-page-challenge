@@ -11,7 +11,7 @@ function AllMediaCards() {
         ID="first"
         link="https://www.facebook.com/CleverProgrammerr/"
         gradient="#1877F2"
-        logo="https://i.pinimg.com/originals/50/51/eb/5051eb5c8b55b28ba8aa32e0da1ad691.png"
+        logo="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png"
         overlay_logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/600px-Facebook_f_logo_%282019%29.svg.png"
         username="cleverprogrammer"
         number="85k"

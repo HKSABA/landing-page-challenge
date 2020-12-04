@@ -8,14 +8,14 @@ function AllOverviewCards() {
     <div className="allOverviewCards">
       <Overview
         type="Page Views"
-        logo="https://i.pinimg.com/originals/50/51/eb/5051eb5c8b55b28ba8aa32e0da1ad691.png"
+        logo="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png"
         number="87"
         upButton
         dailyCount="3%"
       />
       <Overview
         type="Likes"
-        logo="https://i.pinimg.com/originals/50/51/eb/5051eb5c8b55b28ba8aa32e0da1ad691.png"
+        logo="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-512.png"
         number="52"
         dailyCount="2%"
       />
