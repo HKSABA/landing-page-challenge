@@ -96,3 +96,20 @@
     margin-bottom: 16px;
   }
 }
+
+/* 
+  iPad Pro 
+*/
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  .overview {
+    height: 160px;
+    padding: 0;
+  }
+  .overview__top p,
+  .overviewBottom__right p {
+    font-size: 16px;
+  }
+  .overviewBottom__left h2 {
+    font-size: 32px;
+  }
+}

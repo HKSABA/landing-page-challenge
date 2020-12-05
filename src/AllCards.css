@@ -48,3 +48,16 @@
     padding: 3% 0;
   }
 }
+
+/* 
+  iPad Pro 
+*/
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  #overview_h2 {
+    font-size: 30px !important;
+  }
+  .allOverviewCards {
+    padding: 0 !important;
+    margin-bottom: 2vh !important;
+  }
+}
