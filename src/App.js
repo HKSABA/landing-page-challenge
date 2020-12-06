@@ -30,6 +30,7 @@ function App() {
               <h1>Social Media Dashboard</h1>
               <p id="dark_mode_p">Total Followers: 981,000</p>
             </div>
+
             <div className="appHeader__right">
               <p>Dark Mode</p>
               <Switch
